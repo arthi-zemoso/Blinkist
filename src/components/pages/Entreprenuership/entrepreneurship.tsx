@@ -33,8 +33,6 @@ const Entrepreneurship = () => {
                 <MyLibrary/>
                 </Box>
                 
-               
-            
             <Footer></Footer>
 
         </div>

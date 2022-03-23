@@ -1,6 +1,4 @@
 import {useState} from 'react';
-import logo from './logo.svg';
-import { Box, Typography,ThemeProvider} from "@mui/material";
 import './App.css';
 import LandingPage from './components/pages/Landing/landingpage'
 import { Routes, BrowserRouter, Route, Link } from 'react-router-dom';

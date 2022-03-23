@@ -19,10 +19,9 @@ const LibraryBtn = (props:LibraryBtnProps) => {
             height:"52px",
             borderRadius:"4px",
             padding:"14px 24px 14px 24px",
-            color:'primary'
-        }}startIcon={<AddIcon/>} >
-         
-        Finished</Button>
+            color:'primary',
+        }}startIcon={<AddIcon/>} >    
+        {props.title}</Button>
     )
 }
 export default LibraryBtn;

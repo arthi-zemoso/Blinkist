@@ -3,7 +3,6 @@ import Logo from '../../atoms/Icons/logo.svg'
 import { makeStyles } from '@material-ui/core/styles';
 import NavSection from "../NavSection/navsection";
 import React from 'react';
-import {Facebook, Twitter, Instagram, LinkedIn } from '@material-ui/icons';
 
 
 const Footer =()=>{

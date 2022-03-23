@@ -16,13 +16,8 @@ interface Book{
     numberReads:string,
     status:string,
   }
-type BookTabProps={
-    toAdd:boolean,
-    status?:"CR"|"F",
-    finishset?:()=>void,
-    book?:Book
-  }
 
+var title=""
   const useStyles = makeStyles((theme)=>({
 
     bookButton:{
@@ -70,7 +65,7 @@ type BookTabProps={
     const [bookState, setBookState] = useState(false);
     const [bookCardItems, setBookCardData] = useState<any[]>([]);
     const [currentTab, setCurrentTab] = useState('CR');
-    const [finished,setFinished]=useState(false);
+   
 
     const onchangeTab =() =>{
         currentTab === 'CR'? setCurrentTab('F'):setCurrentTab('CR');
@@ -141,8 +136,11 @@ const statusUpdate=(book:Book)=>{
                                             : "Currently Reading"
                                         }            
                                 />
-
-                            <LibraryBtn  title="library"  onClick={()=>{statusUpdate(bookCardItem)}}/>
+                              <LibraryBtn  {...bookCardItem.status === "CR"?
+                                  title="Finished" :
+                                 title="Read Again"
+                                }  title={title}  onClick={()=>{statusUpdate(bookCardItem)}}
+                                />
                                 
                             </Grid>
                     )))}
