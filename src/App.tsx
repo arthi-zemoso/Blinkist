@@ -1,26 +1,33 @@
-import React from 'react';
+import {useState} from 'react';
 import logo from './logo.svg';
+import { Box, Typography,ThemeProvider} from "@mui/material";
 import './App.css';
-
+import LandingPage from './components/pages/Landing/landingpage'
+import { Routes, BrowserRouter, Route, Link } from 'react-router-dom';
+import Entrepreneurship from './components/pages/Entreprenuership/entrepreneurship'
+import responsiveFontTheme from './themes/theme';
+import BookDetails from './components/pages/BookDEtails/bookdetails'
 function App() {
+  const [finished,setFinished]=useState(false);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     
+
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<LandingPage/>}/>
+            <Route path='/entrepreneurship' element={<Entrepreneurship/>} />
+            <Route path="/bookDetails" element={<BookDetails></BookDetails>}/>
+             <Route path="*" element={<h1>Page not exist</h1>}></Route>
+            </Routes>
+      </BrowserRouter>
+    
+   
     </div>
   );
 }
+/*   <Header avatar={false} search={false} explore={false}  ></Header> */
 
 export default App;
+
+// 

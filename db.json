@@ -1,0 +1,100 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "Being Boss",
+      "author": "Kathleen Shannon and Emily...",
+      "imgsrc": "Books/10.svg",
+      "time": "13 minute read",
+      "status": "F"
+    },
+    {
+      "id": 2,
+      "name": "Beyond Entrepreneurship",
+      "author": "Jim Collins & Bill Lazier",
+      "imgsrc": "Books/2.svg",
+      "time": "13 minute read",
+      "status": "F"
+    },
+    {
+      "id": 3,
+      "name": "Employee to Entrepreneur",
+      "author": "Steve Glaveski",
+      "imgsrc": "Books/11.svg",
+      "time": "14 minute read",
+      "status": "F"
+    },
+    {
+      "id": 4,
+      "name": "The fate of Food",
+      "author": "Amanda Little",
+      "imgsrc": "Books/4.svg",
+      "time": "12 minute read",
+      "status": "CR"
+    },
+    {
+      "id": 5,
+      "name": "Lives of the Stoics",
+      "author": "Ryan Holiday, Stephen Hansel",
+      "imgsrc": "Books/5.svg",
+      "time": "13 minute read",
+      "status": "CR"
+    },
+    {
+      "id": 6,
+      "name": "Loving your business",
+      "author": "Debbie King",
+      "imgsrc": "Books/6.svg",
+      "time": "14 minute read",
+      "status": "CR"
+    },
+    {
+      "id": 7,
+      "name": "The lonely century",
+      "author": "Noreena Hertz",
+      "imgsrc": "Books/7.svg",
+      "time": "13 minute read",
+      "status": "CR"
+    },
+    {
+      "id": 8,
+      "name": "Eat better feel better",
+      "author": "Giada De Laurentiis",
+      "imgsrc": "Books/8.svg",
+      "time": "13 minute read",
+      "status": "CR"
+    },
+    {
+      "id": 9,
+      "name": "Dropshipping",
+      "author": "James Moore",
+      "imgsrc": "Books/9.svg",
+      "time": "13 minute read",
+      "status": "CR"
+    },
+    {
+      "id": 10,
+      "name": "Bring your human to work",
+      "author": "Erica Keswin",
+      "imgsrc": "Books/1.svg",
+      "time": "13 minute read",
+      "status": "CR"
+    },
+    {
+      "id": 11,
+      "name": "Beyond Entrepreneurship 2.0",
+      "author": "Jim Collins & Bill Lazier",
+      "imgsrc": "Books/2.svg",
+      "time": "13 minute read",
+      "status": "CR"
+    },
+    {
+      "id": 12,
+      "name": "Doesn't hurt to ask",
+      "author": "Trey Gowdy",
+      "imgsrc": "Books/3.svg",
+      "time": "13 minute read",
+      "status": "CR"
+    }
+  ]
+}
