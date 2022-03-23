@@ -3,7 +3,7 @@ import React from "react";
 import AddIcon from '@mui/icons-material/Add';
     
 //import Add from './atoms/Icons/plus.svg';
-import Add from "/home/arthia/Desktop/Blinkist/my-blinkist/src/components/atoms/Icons/plus.svg";
+
 
 type LibraryBtnProps={
     title:string,
@@ -25,7 +25,3 @@ const LibraryBtn = (props:LibraryBtnProps) => {
     )
 }
 export default LibraryBtn;
-//    <img src={Add} alt="plus"/>  startIcon={<Add/>}  <img alt="plus"src={Add}> </img> <AddIcon></AddIcon>startIcon={<Add/>}
-/*  
-        
-        */

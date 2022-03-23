@@ -1,5 +1,5 @@
 import ExtendedNav from './extendednav'
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { ComponentMeta} from "@storybook/react";
 
 export default {
     title:"organisms/extendednav",

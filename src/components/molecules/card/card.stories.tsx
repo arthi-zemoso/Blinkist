@@ -1,4 +1,4 @@
-import BookCardComponent from "./card";
+import BookCardComponent from "./BookCardComponent";
 import { ThemeProvider } from '@emotion/react';
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 import ResponsiveFontTheme from "../../../themes/theme";

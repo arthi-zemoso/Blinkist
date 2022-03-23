@@ -1,4 +1,1 @@
-const Route=()=>{
-
-}
-export default Route
+import React from 'react';

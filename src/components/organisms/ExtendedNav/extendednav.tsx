@@ -8,12 +8,10 @@ import Bulb from '../../atoms/Icons/bulb.svg';
 import Target from '../../atoms/Icons/target.svg';
 import Globe from '../../atoms/Icons/globe.svg';
 import Heart from '../../atoms/Icons/heart.svg'
-import MSG from '../../atoms/Icons/msg.svg'
 import Graph from '../../atoms/Icons/graph.svg'
 import Chart from '../../atoms/Icons/chart.svg'
 import Brain from '../../atoms/Icons/brain.svg'
-import { Routes, HashRouter, Route, Link } from 'react-router-dom';
-import Entrepreneurship from '../../pages/Entreprenuership/entrepreneurship'
+
 
     let items=[
     {

@@ -1,12 +1,12 @@
 import {useState} from 'react';
 import './App.css';
-import LandingPage from './components/pages/Landing/landingpage'
-import { Routes, BrowserRouter, Route, Link } from 'react-router-dom';
+import LandingPage from './components/pages/Landing/EntryPage'
+import { Routes, BrowserRouter, Route} from 'react-router-dom';
 import Entrepreneurship from './components/pages/Entreprenuership/entrepreneurship'
 import responsiveFontTheme from './themes/theme';
 import BookDetails from './components/pages/BookDEtails/bookdetails'
 function App() {
-  const [finished,setFinished]=useState(false);
+ 
   return (
     <div className="App">
      

@@ -1,6 +1,5 @@
 import MyLibrary from '../../organisms/Library/LIbrary'
 import { Box, Typography} from "@mui/material";
-import SearchBar from '../../molecules/Search/searchbar';
 import Header from '../../organisms/Header/header';
 import Footer from '../../organisms/Footer/footer'
 const EntryPage=()=>{

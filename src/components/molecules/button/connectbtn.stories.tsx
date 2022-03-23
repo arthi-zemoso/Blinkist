@@ -1,5 +1,5 @@
 import ConnectBtn from "./connectbtn";
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import  {ComponentStory} from "@storybook/react";
 
 export default {
     title: "molecules/button/ConnectButton",

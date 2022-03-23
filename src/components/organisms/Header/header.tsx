@@ -7,8 +7,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import ExtendedNav from '../ExtendedNav/extendednav';
 import SearchBar from '../../molecules/Search/searchbar'
-import { Routes, HashRouter, Route, Link } from 'react-router-dom';
-import Entrepreneurship from '../../pages/Entreprenuership/entrepreneurship'
+
 type HeaderConst={
     avatar:boolean,
     avatarLatter?:string,

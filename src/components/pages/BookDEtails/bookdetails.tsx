@@ -1,4 +1,4 @@
-import {Box, Typography,Button} from  "@mui/material";
+import { Typography,Button} from  "@mui/material";
 import Footer from "../../organisms/Footer/footer";
 import Header from "../../organisms/Header/header";
 import Tab from '../../molecules/tab'

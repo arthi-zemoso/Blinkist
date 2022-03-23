@@ -1,5 +1,5 @@
 import Banner from './banner';
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { ComponentMeta } from "@storybook/react";
 
 export default {
     title:"organisms/banner",
