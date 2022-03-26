@@ -4,7 +4,7 @@ import Header from '../../organisms/Header/header';
 import Footer from '../../organisms/Footer/footer'
 const EntryPage=()=>{
 return(
-    <div>
+    <>
     <Header avatar={false} explore={false} openSearch={()=>console.log("hello")} ></Header>
     <Box sx={{
         margin:"59px 15% 8px 18%"
@@ -21,9 +21,9 @@ return(
         }}>My Library</Typography>
         <MyLibrary/>
         </Box>
-        <Footer></Footer>
-        </div>
+       <Footer/>
+        </>
 )
 }
 export default EntryPage;
-// <MyLibrary/>
+// <MyLibrary/> <Footer></Footer>

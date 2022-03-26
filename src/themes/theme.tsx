@@ -78,30 +78,43 @@ typography:{
         '"Segoe UI Symbol"',
       ].join(','),
     subtitle1:{
-        fontFamily:"Cera-Pro",
+        fontFamily:"Cera Pro",
         fontWeight:600,
         lineHeight:'22.63',
         fontSize:18,
-        textAlign:'left'
-
+        textAlign:'center',
     },
     subtitle2:{
+        fontFamily:"Cera Pro",
 display:"inline-block",
 margin:'30px 0px 20px 0px',
 color:'#6D787E'
     },
     h1:{
+        fontFamily:"Cera Pro",
         fontSize:'36px',
          fontWeight:'bolder'
     },
+    h3:{
+        fontFamily:"Cera Pro",
+        fontSize:'20px',
+         fontWeight:'bolder',
+         textAlign:"left"
+    },
     body1:{
+        fontFamily:"Cera Pro",
 textAlign:"left",
   fontWeight:'bolder'
     },  
     body2:{
+        fontFamily:"Cera Pro",
         color:'#6D787E',
+        bottom:"16px",
+        top:"16px",
+        textAlign:'left',
     },
     caption:{
+        fontFamily:"Cera Pro",
         color:'#6D787E',
         fontSize:14,
         position:"relative",

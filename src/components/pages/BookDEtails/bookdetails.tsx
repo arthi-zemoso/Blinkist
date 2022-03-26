@@ -17,7 +17,7 @@ const BookDetails = () => {
             <Header></Header>
             <div style={{
                 margin:"16px 15% 16px 18%",
-                marginBottom:"150px"
+                
             }}>
                 <Typography variant="body2">Get the key idea from</Typography>
            
@@ -27,18 +27,19 @@ const BookDetails = () => {
             }}>
                 <div style={{
                     marginRight:'125px',
+                    paddingTop:"40px"
                 }}>
            
             <Typography variant="h3"> Beyond Entrepreneurship 2.0</Typography>
-            <Typography sx={{marginTop:'10px'}} variant="subtitle1">Turning Your Business into an Enduring Great Company</Typography>
+            <Typography variant="subtitle1">Turning Your Business into an Enduring Great Company</Typography>
             <Typography variant="body1"> Jim Collins and Bill Lazier</Typography>
             <Button sx={{
                 marginRight:'10px',
                 borderRadius:"0px",
-                marginTop:"20px"
+                marginTop:"30px"
             }} variant="outlined">Read More</Button>
             <Button sx={{borderRadius:"0px",
-            marginTop:"20px"
+            marginTop:"30px"
             }} variant="contained">Finished Reading</Button>
             {/* <ConnectBtn variant="contained" title="Finished Reading" ></ConnectBtn> */}
                 </div>
@@ -48,7 +49,6 @@ const BookDetails = () => {
             </div>
             <div style={{
                 margin:"2px 0px 15px 0px",
-                marginTop:"20px"
             }}>
                 <Tab title="Synopsis" isActive={true}></Tab>
                 <Tab title="What is for?" isActive={false}></Tab>
@@ -63,9 +63,7 @@ const BookDetails = () => {
                  <br></br>cutting-edge insights and case studies pertinent to today’s business world.
                 </Typography>
             </div>
-            
             </div>
-            
             <Footer></Footer>
 
         </div>

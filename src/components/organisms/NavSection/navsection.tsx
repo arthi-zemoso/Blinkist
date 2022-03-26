@@ -16,23 +16,27 @@ const NavSection=()=>{
             <Typography variant="body1"
             sx={{
                 marginBottom:'16px',
-                fontWeight:"bold"
+                
             }}>Editorial</Typography>
             <Typography variant="body2"
             sx={{
-                marginBottom:'16px'
-            }}><a >Book List</a></Typography>
+                marginBottom:'16px',
+                
+            }} ><a >Book List</a></Typography>
+            <Typography variant="body2"
+           sx={{
+            marginBottom:'16px',
+            
+        }} ><a >What is Nonfiction?</a></Typography>
             <Typography variant="body2"
             sx={{
-                marginBottom:'16px'
-            }}><a >What is Nonfiction?</a></Typography>
+                marginBottom:'16px',
+                
+            }} ><a >What to read next?</a></Typography>
             <Typography variant="body2"
-            sx={{
-                marginBottom:'16px'
-            }}><a >What to read next?</a></Typography>
-            <Typography variant="body2"
-            sx={{
-                marginBottom:'16px'
+             sx={{
+                marginBottom:'16px',
+                
             }}><a >Benefits of reading</a></Typography>   
             </div>
             <div
@@ -47,20 +51,24 @@ const NavSection=()=>{
                 fontWeight:'bold',
             }}>Useful links</Typography>
             <Typography variant="body2"
-            sx={{
-                marginBottom:'16px'
+             sx={{
+                marginBottom:'16px',
+                
             }}><a >Pricing</a></Typography>
             <Typography variant="body2"
             sx={{
-                marginBottom:'16px'
+                marginBottom:'16px',
+                
             }}><a>Blinkist buisness</a></Typography>
             <Typography variant="body2"
             sx={{
-                marginBottom:'16px'
+                marginBottom:'16px',
+                
             }}><a >Gift Cards</a></Typography>
             <Typography variant="body2"
             sx={{
-                marginBottom:'16px'
+                marginBottom:'16px',
+                
             }}><a >Blinkst magaine</a></Typography>
             <Typography variant="body2"><a >Contacts & help</a></Typography>
                 </div>  
@@ -74,24 +82,28 @@ const NavSection=()=>{
                 <Typography variant="body1"
                 sx={{
                     marginBottom:'16px',
-                    fontWeight:"bold"
+                    fontWeight:'bold',
                 }}>Company</Typography>
             <Typography variant="body2"
-            sx={{
-                marginBottom:'16px',
-            }}><a >About</a></Typography>
+           sx={{
+            marginBottom:'16px',
+            
+        }} ><a >About</a></Typography>
             <Typography variant="body2"
-            sx={{
-                marginBottom:'16px'
+             sx={{
+                marginBottom:'16px',
+                
             }}><a >Careers</a></Typography>
             <Typography variant="body2"
-            sx={{
-                marginBottom:'16px'
+             sx={{
+                marginBottom:'16px',
+                
             }}><a >Partners</a></Typography>
             <Typography variant="body2"
             sx={{
-                marginBottom:'16px'
-            }}><a>Code of Conduct</a></Typography>
+                marginBottom:'16px',
+                
+            }} ><a>Code of Conduct</a></Typography>
                     </div> 
                       
         </div>

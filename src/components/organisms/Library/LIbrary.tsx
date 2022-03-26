@@ -139,8 +139,7 @@ const statusUpdate=(book:Book)=>{
                                   title="Finished" :
                                  title="Read Again"
                                 }  title={title}  onClick={()=>{statusUpdate(bookCardItem)}}
-                                />
-                                
+                                />    
                             </Grid>
                     )))}
               </Grid>

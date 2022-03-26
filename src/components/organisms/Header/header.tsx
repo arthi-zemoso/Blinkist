@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import {useState} from 'react';
 import Logo from '../../atoms/Icons/logo.svg'
 import SearchIcon from '../../atoms/Icons/Vectorsearch.svg';
 import { Typography } from '@mui/material';
@@ -7,6 +7,9 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import ExtendedNav from '../ExtendedNav/extendednav';
 import SearchBar from '../../molecules/Search/searchbar'
+import './style.css'
+import LandingPage from '../../pages/Landing/EntryPage'
+import {Link} from 'react-router-dom'
 
 type HeaderConst={
     avatar:boolean,
@@ -18,6 +21,7 @@ type HeaderConst={
 const Header = (props:HeaderConst)=>{
     const[explr,setExplr]=useState(false);
     const[search,setSearch]=useState(false);
+    const[acc,setAcc]=useState(false);
     return(
         <div className="header"
         style={{
@@ -63,7 +67,7 @@ const Header = (props:HeaderConst)=>{
         <div className="linkHover"
         style={{
             marginLeft:'41px',
-        }}>
+        }} onClick={()=> window.location.href='/library'}>
             <Typography
             variant='body1'
             >MyLibrary</Typography>
@@ -73,7 +77,7 @@ const Header = (props:HeaderConst)=>{
             alignItems:'center',
             marginLeft:'40%',
             cursor:'pointer',
-        }}>
+        }}  onClick={()=>setAcc(!acc)}>
 
                 {props.avatar
                 ?<LatterAvatar >{props.avatarLatter}</LatterAvatar>
@@ -82,7 +86,10 @@ const Header = (props:HeaderConst)=>{
                 >Account
               </Typography>
             }
-             <KeyboardArrowDownIcon/>
+            {acc
+            ?<KeyboardArrowUpIcon></KeyboardArrowUpIcon>
+            :<KeyboardArrowDownIcon></KeyboardArrowDownIcon>
+            }
              
             </div>
             </div>
@@ -92,6 +99,9 @@ const Header = (props:HeaderConst)=>{
             {explr
       ?<ExtendedNav></ExtendedNav>
     :undefined}
+    {
+        
+    }
         </div>
     )
 }

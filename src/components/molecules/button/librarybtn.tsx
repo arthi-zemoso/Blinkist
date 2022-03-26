@@ -15,7 +15,7 @@ const LibraryBtn = (props:LibraryBtnProps) => {
         <Button  variant="text"
         onClick={props.onClick} 
         sx={{
-            width:"183px",
+            width:"193px",
             height:"52px",
             borderRadius:"4px",
             padding:"14px 24px 14px 24px",

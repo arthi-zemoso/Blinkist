@@ -135,38 +135,29 @@ const ExtendedNav=()=>{
             <div className="insideNav"
             style={{
                 paddingBottom: '26px',
-                margin:'8px 18% 5px 18%'  
+                margin:'8px 18% 20px 18%'  
             }}
             >
                 <div className="topNav"
                  style={{
                      display:"flex",
                      alignItems:"center",
-                     justifyContent: 'space-between',
-                    margin:'5px 0px 5px 0px',
+                     justifyContent:"space-between",
+                    margin:'30px 0px 30px 0px',
                     borderBottom: '2px solid black',
+                    paddingBottom:"30px"
                     
-                
                 }}>
                 <Typography variant="subtitle2"
-                sx={{
-                    marginTop:"30px",
-                    marginBottom:"24px"
-                }}>
+              >
                     Explore by category
                 </Typography>
                 <Typography variant="subtitle2"
-                  sx={{
-                    marginTop:"30px",
-                    marginBottom:"24px"
-                }}>
+                  >
                     See recent added titles
                 </Typography>
                 <Typography variant="subtitle2"
-                  sx={{
-                    marginTop:"30px",
-                    marginBottom:"24px"
-                }}>
+                 sx={{paddingRight:"70px"}}>
                     See popular titles
                 </Typography>
                 </div>
@@ -195,9 +186,7 @@ const ExtendedNav=()=>{
             cursor:"pointer"
                }} href={element.href} >
              <Typography variant="body2"
-                        sx={{
-                            marginLeft:"10px"
-                        }}>
+                      sx={{paddingLeft:"5px"}}  >
                         {element.title}</Typography>
                         </a>
                             </Grid>

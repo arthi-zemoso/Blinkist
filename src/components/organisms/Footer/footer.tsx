@@ -12,10 +12,8 @@ const Footer =()=>{
             background:"#F1F6F4",
             width:"100%",
             height:"370px",
-            left:"12px",
-            top:"6638px",
-            paddingTop:"38px",
-            Padding:"24px 24px 24px 244px",
+           paddingLeft:"12%",
+            paddingTop:"50px",
             boxSizing:"border-box"
         }}>
             <div style={{
@@ -25,25 +23,13 @@ const Footer =()=>{
         
             
             <div style={{
-                display:'block',
+                display:'flex',
                 flexDirection:'column',
-                left:"256px",
                 
             }}>
-             <img alt='blinkist' src={Logo} style={{width:"99.1px",height:'24px' ,left:'244px',top:"38px",right:"1096px",marginBottom:'32px',marginLeft:"244px"}}/>
-            <Typography sx={{
-                fontWeight:"500",
-                font:'Cera Pro',
-                fontStyle:"normal",
-                fontSize :"24px",
-                lineHeight:"32px",
-                color:"#0365F2",
-                width: '378px',
-                height:'64px',
-                top:'56px',
-                left:'244px',
-                marginLeft:"244px"
-            }} variant='subtitle1'>
+             <img alt='blinkist' src={Logo} style={{width:"99.1px",height:'24px' ,top:"38px",right:"1096px",marginBottom:'32px',marginLeft:"150px"}}/>
+            <Typography  variant='subtitle1'
+           >
             Big ideas in small packages
             <br></br>
         Start learning now
@@ -60,26 +46,30 @@ const Footer =()=>{
         </div>
         
         <Box sx={{
-            marginTop:'48px'
+            marginTop:'48px',
+            marginLeft:"1px"
         }
         }>
-            <Typography sx={{
-                height: "22px",
-                width: "546px",
-                left: "244px",
-                top: "310px",
-                borderRadius: "nullpx",
-                right:'650px',
-                marginLeft:"244px"
-                
-            }}variant='caption'>© Blinkist 2021 Sitemap   |   Imprint   |   Terms of Service   |   Privacy Policies</Typography> 
+            <Typography variant='caption'>© Blinkist 2021 Sitemap   |   Imprint   |   Terms of Service   |   Privacy Policies</Typography> 
         </Box>
         </Box>
             )
         }
     
 export default Footer;
-   /* return(
+   /* 
+   sx={{
+               // fontWeight:"500",
+                //font:'Cera Pro',
+               // fontStyle:"normal",
+               // fontSize :"24px",
+               // lineHeight:"32px",
+                //color:"#0365F2",
+                //width: '378px',
+               // height:'64px',
+               // top:'56px',
+                marginLeft:"212px"
+            }}return(
 <Box
 sx={{
     background:"#F1F6F4",
