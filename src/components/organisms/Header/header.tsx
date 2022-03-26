@@ -10,6 +10,7 @@ import SearchBar from '../../molecules/Search/searchbar'
 import './style.css'
 import LandingPage from '../../pages/Landing/EntryPage'
 import {Link} from 'react-router-dom'
+import AuthComponent from '../Authentication/AuthComponent';
 
 type HeaderConst={
     avatar:boolean,
@@ -100,7 +101,7 @@ const Header = (props:HeaderConst)=>{
       ?<ExtendedNav></ExtendedNav>
     :undefined}
     {
-        
+        acc?<AuthComponent></AuthComponent>:undefined
     }
         </div>
     )
