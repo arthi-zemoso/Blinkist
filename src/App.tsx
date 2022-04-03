@@ -7,20 +7,19 @@ import responsiveFontTheme from './themes/theme';
 import BookDetails from './components/pages/BookDEtails/bookdetails'
 import Footer from "./components/organisms/Footer/footer";
 import Header from "./components/organisms/Header/header";
-import AuthenticatedButton from './components/organisms/AuthenticatedButton'
-import LogoutButton from './components/organisms/Logout';
+//import LogoutButton from './components/organisms/Logout';
 import {ThemeProvider} from "@mui/material"
+import Coverpage from "./components/pages/Coverpage/coverpage";
 
 function App() {
  
   return (
     <div className="App">
      <ThemeProvider theme={responsiveFontTheme}>
-       <AuthenticatedButton/>
-       <LogoutButton/>
+       
       <BrowserRouter>
       <Routes>
-        <Route path='/' element={<h1>Welcome</h1>}/>
+        <Route path='/' element={<Coverpage/>} />
             <Route path='/entrepreneurship' element={<Entrepreneurship/>} />
             <Route path="/bookDetails" element={<BookDetails></BookDetails>}/>
             <Route path='/library' element={<LandingPage/>}></Route>

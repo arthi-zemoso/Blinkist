@@ -1,8 +1,8 @@
 import Button from "@material-ui/core/Button";
 type buttonprops={
-    onClick:any,
+    onClick?:any,
     title:string,
-    disabled:boolean
+    disabled?:boolean
 }
 const ButtonComponent = (props:buttonprops) => {
     

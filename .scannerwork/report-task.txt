@@ -1,0 +1,7 @@
+organization=arthi-zemoso
+projectKey=arthi-zemoso_Blinkist
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.27985
+dashboardUrl=https://sonarcloud.io/dashboard?id=arthi-zemoso_Blinkist
+ceTaskId=AX_hAqE2ZpWH2Ho1d7Hv
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX_hAqE2ZpWH2Ho1d7Hv

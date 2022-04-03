@@ -1,11 +1,11 @@
-import MyLibrary from '../../organisms/Library/LIbrary'
+import MyLibrary from '../../organisms/Library/MyLibrary'
 import { Box, Typography} from "@mui/material";
 import Header from '../../organisms/Header/header';
 import Footer from '../../organisms/Footer/footer'
 const EntryPage=()=>{
 return(
     <>
-    <Header avatar={false} explore={false} openSearch={()=>console.log("hello")} ></Header>
+    <Header></Header>
     <Box sx={{
         margin:"59px 15% 8px 18%"
     }}>

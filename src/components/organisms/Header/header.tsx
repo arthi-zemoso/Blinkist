@@ -8,8 +8,6 @@ import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import ExtendedNav from '../ExtendedNav/extendednav';
 import SearchBar from '../../molecules/Search/searchbar'
 import './style.css'
-import LandingPage from '../../pages/Landing/EntryPage'
-import {Link} from 'react-router-dom'
 import AuthComponent from '../Authentication/AuthComponent';
 
 type HeaderConst={
@@ -42,7 +40,7 @@ const Header = (props:HeaderConst)=>{
             >
             <img alt='blinkist' src={Logo} style={{left:'250px',width:'124.09px',height:'26px'}}/>
 
-           <img alt='search' src={SearchIcon}   onClick={()=>setSearch(!search)} style={{left:'50px'}}/>
+           <img alt='search' data-testid="search" src={SearchIcon}   onClick={()=>setSearch(!search)} style={{left:'50px'}}/>
             
            <div className='linkHover'
             style={{
@@ -51,6 +49,7 @@ const Header = (props:HeaderConst)=>{
                 display:'flex',
                 alignItems:'center'
             }}
+            data-testid="test"
             onClick={()=>setExplr(!explr)}>
              <Typography
             variant='body1'
@@ -68,7 +67,7 @@ const Header = (props:HeaderConst)=>{
         <div className="linkHover"
         style={{
             marginLeft:'41px',
-        }} onClick={()=> window.location.href='/library'}>
+        }} data-testid="lib" onClick={()=> window.location.href='/library'}>
             <Typography
             variant='body1'
             >MyLibrary</Typography>
@@ -78,7 +77,7 @@ const Header = (props:HeaderConst)=>{
             alignItems:'center',
             marginLeft:'40%',
             cursor:'pointer',
-        }}  onClick={()=>setAcc(!acc)}>
+        }} data-testid="account" onClick={()=>setAcc(!acc)}>
 
                 {props.avatar
                 ?<LatterAvatar >{props.avatarLatter}</LatterAvatar>

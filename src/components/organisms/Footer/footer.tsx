@@ -1,6 +1,5 @@
-import { Box, Typography,Grid } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import Logo from '../../atoms/Icons/logo.svg'
-import { makeStyles } from '@material-ui/core/styles';
 import NavSection from "../NavSection/navsection";
 import React from 'react';
 
@@ -27,7 +26,7 @@ const Footer =()=>{
                 flexDirection:'column',
                 
             }}>
-             <img alt='blinkist' src={Logo} style={{width:"99.1px",height:'24px' ,top:"38px",right:"1096px",marginBottom:'32px',marginLeft:"150px"}}/>
+             <img alt='blinkist' src={Logo} style={{width:"99.1px",height:'24px' ,top:"38px",right:"1096px",marginBottom:'32px',marginLeft:"120px"}}/>
             <Typography  variant='subtitle1'
            >
             Big ideas in small packages

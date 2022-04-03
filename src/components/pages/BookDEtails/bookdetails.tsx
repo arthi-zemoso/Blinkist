@@ -1,7 +1,7 @@
 import { Typography,Button} from  "@mui/material";
 import Footer from "../../organisms/Footer/footer";
 import Header from "../../organisms/Header/header";
-import Tab from '../../molecules/tab'
+import Tab from '../../molecules/Tab/tab'
 import Book from '../../../assets/Books/2.svg'
 const BookDetails = () => {
     type bookType={
@@ -10,20 +10,18 @@ const BookDetails = () => {
         author:string,
         imgSrc:string
     }
-  
     return(
         <div>
             
             <Header></Header>
             <div style={{
-                margin:"16px 15% 16px 18%",
-                
+                margin:"16px 15% 16px 18%",    
             }}>
                 <Typography variant="body2">Get the key idea from</Typography>
            
             <div style={{
                 display:'flex',
-                justifyContent:'space-between',
+                //justifyContent:'space-between',
             }}>
                 <div style={{
                     marginRight:'125px',
@@ -48,7 +46,7 @@ const BookDetails = () => {
             </div>
             </div>
             <div style={{
-                margin:"2px 0px 15px 0px",
+                margin:"2px 0px 0px 0px",
             }}>
                 <Tab title="Synopsis" isActive={true}></Tab>
                 <Tab title="What is for?" isActive={false}></Tab>
@@ -65,7 +63,6 @@ const BookDetails = () => {
             </div>
             </div>
             <Footer></Footer>
-
         </div>
     )
 }

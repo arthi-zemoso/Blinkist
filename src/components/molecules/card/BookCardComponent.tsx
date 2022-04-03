@@ -9,12 +9,12 @@ id:number,
 img?:string,
 title?:string,
 alt?:string,
-author:string,
+author?:string,
 timeRead:string,
 numberRead:string,
 toAdd:boolean,
 status?:"Currently Reading"|"Finished Reading"|"null",
-finishset:()=>void,
+finishset?:()=>void,
 changeStatus?:()=>void,
 }
 const useStyles = makeStyles((theme) => ({
@@ -90,7 +90,7 @@ timeRead:"13-min read",
 numberRead:"1.9k reads",
 toAdd:false,
 status:"null",
-finishset:()=>console.log("clicked")
+
 
 }
 
