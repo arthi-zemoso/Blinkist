@@ -1,4 +1,4 @@
-import MyLibrary from './LIbrary'
+import MyLibrary from './MyLibrary'
 import { ComponentMeta } from "@storybook/react";
 
 export default {

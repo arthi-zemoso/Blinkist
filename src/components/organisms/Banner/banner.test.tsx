@@ -4,6 +4,6 @@ import "@testing-library/jest-dom";
 
 it("Is banner is visible",async()=>{
     render(<Banner></Banner>);
-    const banner=screen.getAllByRole("heading");
+    const banner=screen.getByText("Explore Books on entrepreneurship");
     expect(banner).toBeInTheDocument();
 });

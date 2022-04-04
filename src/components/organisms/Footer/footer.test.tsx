@@ -4,6 +4,6 @@ import "@testing-library/jest-dom";
 
 it("Is footer is visible",async()=>{
     render(<Footer></Footer>);
-    const footer=screen.getByText("Big ideas in small packages");
+    const footer=screen.getByText("Code of Conduct");
     expect(footer).toBeInTheDocument();
 });

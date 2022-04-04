@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/home/arthia/Desktop/Blinkist/my-blinkist/src/components/organisms/ExtendedNav/extendednav.test.tsx">
+    <testCase name="Is extended nav Section is visible" duration="488"/>
+  </file>
+  <file path="/home/arthia/Desktop/Blinkist/my-blinkist/src/components/organisms/Header/header.test.tsx">
+    <testCase name="Is footer is visible" duration="235"/>
+    <testCase name="button currently reading  work" duration="43"/>
+    <testCase name="Is header is visible" duration="52"/>
+    <testCase name="Is header is visible2" duration="47"/>
+    <testCase name="Is header is visible3" duration="88"/>
+    <testCase name="Is header is visible4" duration="56"/>
+    <testCase name="is search working" duration="539"/>
+    <testCase name="is explore working" duration="620"/>
+    <testCase name="is account working" duration="93"/>
+    <testCase name="is library working" duration="139"/>
+  </file>
+  <file path="/home/arthia/Desktop/Blinkist/my-blinkist/src/components/pages/BookDEtails/bookdetails.test.tsx">
+    <testCase name="Is entrypage is visible" duration="1241"/>
+  </file>
+  <file path="/home/arthia/Desktop/Blinkist/my-blinkist/src/components/organisms/Logout.test.tsx">
+    <testCase name="Is coverpage is visible" duration="305"/>
+    <testCase name="Expects to run onClick function when button is pressed in the DOM" duration="31"/>
+    <testCase name="button work" duration="105"/>
+  </file>
+  <file path="/home/arthia/Desktop/Blinkist/my-blinkist/src/components/molecules/Search/searchbar.test.tsx">
+    <testCase name="Is searchbar is visible" duration="287"/>
+  </file>
+  <file path="/home/arthia/Desktop/Blinkist/my-blinkist/src/components/organisms/Footer/footer.test.tsx">
+    <testCase name="Is footer is visible" duration="186"/>
+  </file>
+  <file path="/home/arthia/Desktop/Blinkist/my-blinkist/src/components/organisms/Banner/banner.test.tsx">
+    <testCase name="Is banner is visible" duration="198"/>
+  </file>
+  <file path="/home/arthia/Desktop/Blinkist/my-blinkist/src/components/molecules/button/button.test.tsx">
+    <testCase name="Is library button is visible" duration="297"/>
+  </file>
+  <file path="/home/arthia/Desktop/Blinkist/my-blinkist/src/components/molecules/Tab/tab.test.tsx">
+    <testCase name="Is tab is visible" duration="28"/>
+  </file>
+  <file path="/home/arthia/Desktop/Blinkist/my-blinkist/src/components/molecules/button/librarybtn.test.tsx">
+    <testCase name="Is library button is visible" duration="130"/>
+  </file>
+  <file path="/home/arthia/Desktop/Blinkist/my-blinkist/src/components/organisms/NavSection/Navsection.test.tsx">
+    <testCase name="Is nav Section is visible" duration="164"/>
+  </file>
+  <file path="/home/arthia/Desktop/Blinkist/my-blinkist/src/components/organisms/Authentication/Auth.test.tsx">
+    <testCase name="Is entrypage is visible" duration="27"/>
+  </file>
+  <file path="/home/arthia/Desktop/Blinkist/my-blinkist/src/components/organisms/LOgInButton.test.tsx">
+    <testCase name="Is coverpage is visible" duration="21"/>
+  </file>
+  <file path="/home/arthia/Desktop/Blinkist/my-blinkist/src/components/pages/Coverpage/coverpage.test.tsx">
+    <testCase name="Is coverpage is visible" duration="33"/>
+  </file>
+  <file path="/home/arthia/Desktop/Blinkist/my-blinkist/src/components/molecules/card/card.test.tsx">
+    <testCase name="Is card is visible" duration="312"/>
+  </file>
+  <file path="/home/arthia/Desktop/Blinkist/my-blinkist/src/components/pages/Landing/entry.test.tsx">
+    <testCase name="Is entrypage is visible" duration="402"/>
+    <testCase name="Is header is visible" duration="27"/>
+  </file>
+  <file path="/home/arthia/Desktop/Blinkist/my-blinkist/src/components/organisms/Library/Library.test.tsx">
+    <testCase name="Is nav Section is visible" duration="365"/>
+    <testCase name="Is finished is visible" duration="139"/>
+    <testCase name="card rendered" duration="180"/>
+    <testCase name=" is card rendered" duration="104"/>
+    <testCase name="button work" duration="152"/>
+    <testCase name="button currently reading  work" duration="114"/>
+    <testCase name="button  card work" duration="303"/>
+    <testCase name="is account working" duration="688"/>
+  </file>
+  <file path="/home/arthia/Desktop/Blinkist/my-blinkist/src/components/pages/Entreprenuership/entrepreneurship.test.tsx">
+    <testCase name="Is entrypage is visible" duration="412"/>
+    <testCase name="is library button visible" duration="78"/>
+    <testCase name="first snapshot" duration="136"/>
+    <testCase name="button work" duration="43"/>
+    <testCase name="is grid visible" duration="423"/>
+    <testCase name="is account working" duration="778"/>
+  </file>
+</testExecutions>

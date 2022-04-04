@@ -2,12 +2,12 @@ import Button from '@mui/material/Button';
 import React from "react";
 import AddIcon from '@mui/icons-material/Add';
     
-//import Add from './atoms/Icons/plus.svg';
+
 
 
 type LibraryBtnProps={
     title:string,
-    onClick:React.EventHandler<any>
+    onClick?:React.EventHandler<any>
 }
 
 const LibraryBtn = (props:LibraryBtnProps) => {
